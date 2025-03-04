@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Adeo export all",
+  "version": "1.0",
+
+  "description": "How much is my cookie?",
+
+  "content_scripts": [
+    {
+      "matches": ["*://adeo.moneweb.fr/*"],
+      "js": ["inject.js"]
+    }
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "permissions": [
+    "cookies",
+    "downloads",
+    "downloads.open",
+    "https://adeo.moneweb.fr/*",
+    "<all_urls>"
+  ]
+}
