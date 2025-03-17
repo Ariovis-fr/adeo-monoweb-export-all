@@ -19,7 +19,6 @@
     "cookies",
     "downloads",
     "downloads.open",
-    "https://adeo.moneweb.fr/*",
-    "<all_urls>"
+    "https://adeo.moneweb.fr/*"
   ]
 }
