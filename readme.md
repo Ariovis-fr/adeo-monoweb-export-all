@@ -1,6 +1,6 @@
 # Adeo Moneyweb crawler
 
-Adds an "Export all" button that saves all filtered invoices as PDF files at once on the Adeo Moneyweb Dashboard.
+Adds an "Export all" button that saves all filtered invoices as PDF files at once on the Moneyweb Dashboard.
 
 Originally made for [Ariovis](https://ariovis.fr) internal usage. Feel free to use it as well !
 
